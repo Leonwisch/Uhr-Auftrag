@@ -1,2 +1,2 @@
 # Uhr-Auftrag
-Bei diesem Auftrag habe ich eine Uhr erstellt. Ich habe für diesen Auftrag CSS und JavaScript verwendet. Die html Datei wurde schon vorgegeben und wir durften sie nicht verändern. Der Code von den Zeiger ist mit JavaScript geschrieben. Das Aussehen von der Uhr und den zeiger ist alles mit CSS gemacht.
+For this assignment I created a clock. I used CSS and JavaScript for this job. The html file was already specified and we were not allowed to change it. The code for the pointers is written with JavaScript. The look of the clock and the hands is all done with CSS.
