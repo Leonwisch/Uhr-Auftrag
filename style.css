@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Dieser Code ist für die ganze Uhr ausser die Zeiger zuständig. */
+/*This code is responsible for the entire clock outside of the hand. */
 .outer-clock-face{
     height: 60vh;
     width: 90%;
@@ -17,14 +17,14 @@
     background-repeat: no-repeat;
 }
 
-/*Dieser Code ist dafür zuständig das alles in der Mitte ist. */
+/*This code is responsible for ensuring that everything is in the middle. */
 .clock{
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-/*Dieser Code ist der Sekundenzeiger */
+/*This code is the second hand */
 .second-hand{
     position: absolute;
     top: 50%;
@@ -36,7 +36,7 @@
    transform-origin: left;
 }
 
-/*Dieser Code ist der Minutenzeiger */
+/*This code is the minute hand */
 .min-hand{
     position: absolute;
     top: 50%;
@@ -48,7 +48,7 @@
    transform-origin: left;
 }
 
-/*Dieser Code ist der Stundenanzeiger */
+/*This code is the hour hand */
 .hour-hand{
     position: absolute;
     top: 50%;

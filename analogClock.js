@@ -1,9 +1,9 @@
-/*Dieser Code Speicher die Elemente der Klassen in variabeln. */
+/*This code stores the elements of the classes in variables. */
 const secEl = document.querySelector(".second-hand")
 const minEl = document.querySelector(".min-hand")
 const hourEl = document.querySelector(".hour-hand")
 
-/*Dieser Code ist die Technik hinter den Uhrenzeiger. */
+/*This code is the technology behind the clock. */
 setInterval(() => {
     const date = new Date;
     const secDeg = date.getSeconds()/60 * 360 - 90;
