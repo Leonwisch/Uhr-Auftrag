@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Dieser Code ist für die ganze Uhr ausser die Zeiger zuständig. */
+.outer-clock-face{
+    height: 60vh;
+    width: 90%;
+    max-width: 60vh;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(5054.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Dieser Code ist dafür zuständig das alles in der Mitte ist. */
+.clock{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/*Dieser Code ist der Sekundenzeiger */
+.second-hand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 3px;
+    width: 40%;
+    background-color: rgb(231, 19, 19);
+    transform: rotate(-90deg); 
+   transform-origin: left;
+}
+
+/*Dieser Code ist der Minutenzeiger */
+.min-hand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(-90deg); 
+   transform-origin: left;
+}
+
+/*Dieser Code ist der Stundenanzeiger */
+.hour-hand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 7px;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(-90deg); 
+   transform-origin: left;
+}
